@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Tokenomics.module.css";
 import coin from "../../../Assets/coin.svg";
+import top from "../../../Assets/top-shadow.svg";
+import bot from "../../../Assets/bottom-shadow.svg";
 function Tokenomics() {
   return (
     <div className={styles.tokenCont}>
       <img src={coin} className={styles.coin} alt="" />
+      <img src={bot} className={styles.bot} alt="" />
+      <img src={top} alt="" className={styles.top} />
       <div className={styles.token}>
         <div className={styles.leftToken}>
           <h1 className={styles.tokenHead}>

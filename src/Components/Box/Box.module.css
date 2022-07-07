@@ -5,6 +5,7 @@
   backdrop-filter: blur(40px);
   border-radius: 8px;
   isolation: isolate;
+  position: relative;
 }
 .wrapper {
   background: rgba(12, 16, 19, 1);
