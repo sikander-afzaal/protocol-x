@@ -4,6 +4,16 @@
   background-repeat: no-repeat;
   padding-bottom: 80px;
 }
+.blackBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 20px;
+  padding-bottom: 120px;
+  background-color: #0c1013;
+  width: 100%;
+}
 @media screen and (max-width: 500px) {
   .heroBg {
     padding-bottom: 40px;
