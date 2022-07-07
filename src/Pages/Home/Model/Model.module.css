@@ -1,5 +1,6 @@
 .modelCont {
   background-color: #00090f;
+  overflow-x: hidden;
 }
 .model {
   max-width: 1200px;

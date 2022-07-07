@@ -15,6 +15,10 @@
   padding-inline: 20px;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
 }
 .row2-cont {
   width: 100%;
