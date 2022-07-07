@@ -122,18 +122,44 @@
 }
 @media screen and (max-width: 1054px) {
   .tokenCont {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
   .token {
     flex-direction: column;
+  }
+  .leftToken,
+  .rightToken {
+    justify-content: center;
+    align-items: center;
   }
   .rightToken {
     align-self: center;
     width: 100%;
   }
   .tableWrapper {
-    max-width: 95% !important;
+    max-width: 100% !important;
     width: 100% !important;
     height: auto;
+  }
+  .tableDesc,
+  .tableHead {
+    padding-bottom: 10px;
+  }
+  .tableMain {
+    padding-left: 2px;
+    padding-right: 10px;
+  }
+  .tableGrid {
+    grid-auto-rows: auto;
+    padding-inline: 10px;
+  }
+  .tokenHead {
+    line-height: 1 !important;
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tableMain {
+    font-size: 14px;
   }
 }
