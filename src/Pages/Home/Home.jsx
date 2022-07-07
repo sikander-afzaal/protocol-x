@@ -6,6 +6,7 @@ import Model from "./Model/Model";
 import BoxRow1 from "./BoxRow1/BoxRow1";
 import BoxRow2 from "./BoxRow2/BoxRow2";
 import Treasury from "./Treasury/Treasury";
+import Tokenomics from "./Tokenomics/Tokenomics";
 function Home() {
   return (
     <div className="home">
@@ -18,6 +19,7 @@ function Home() {
       <div className={styles.blackBg}>
         <BoxRow2 />
         <Treasury />
+        <Tokenomics />
       </div>
     </div>
   );
