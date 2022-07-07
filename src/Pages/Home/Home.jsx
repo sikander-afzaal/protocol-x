@@ -8,6 +8,7 @@ import BoxRow2 from "./BoxRow2/BoxRow2";
 import Treasury from "./Treasury/Treasury";
 import Tokenomics from "./Tokenomics/Tokenomics";
 import Faq from "./Faq/Faq";
+import Roadmap from "./Roadmap/Roadmap";
 function Home() {
   return (
     <div className="home">
@@ -23,6 +24,7 @@ function Home() {
         <Tokenomics />
         <Faq />
       </div>
+      <Roadmap />
     </div>
   );
 }

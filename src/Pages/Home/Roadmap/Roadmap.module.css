@@ -1,0 +1,65 @@
+.roadCont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../../../Assets/roadmap/roadbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 120px 20px;
+  min-height: max(100vh, 1400px);
+}
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+.roadCol {
+  gap: 3rem;
+  display: flex;
+  justify-content: flex-start;
+
+  flex-direction: column;
+
+  position: absolute;
+}
+.roadmap .roadCol:nth-of-type(1) {
+  left: 0;
+  top: 54%;
+  text-align: left;
+  align-items: flex-start;
+}
+.roadmap .roadCol:nth-of-type(2) {
+  right: 0;
+  top: 70%;
+  text-align: right;
+  align-items: flex-end;
+}
+.topRoad h1 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+  text-align: inherit;
+}
+.red {
+  font-weight: 700;
+  color: #ac0000;
+}
+.roadList {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+  flex-direction: column;
+}
+.roadItem {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 166%;
+  color: #ffffff;
+  text-align: inherit;
+  width: fit-content;
+}
