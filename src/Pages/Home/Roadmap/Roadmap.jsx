@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./Roadmap.module.css";
 import mid from "../../../Assets/roadmap/mid.png";
+import time from "../../../Assets/roadmap/time.svg";
 function Roadmap() {
   return (
     <div className={styles.roadCont}>
+      <img src={time} className={styles.time} alt="" />
       <div className={styles.roadmap}>
         <img src={mid} className={styles.mid} alt="" />
         <div className={styles.roadCol}>
@@ -62,24 +64,24 @@ function Roadmap() {
             </h1>
           </div>
           <ul className={styles.roadList}>
-            <li className={styles.roadItem}> Expanding the ProtocolX </li>
-            <li className={styles.roadItem}> Ecosystem </li>
-            <li className={styles.roadItem}> Introducing gamification </li>
-            <li className={styles.roadItem}> systems to promote the </li>
+            <li className={styles.roadItem}>
+              Expanding the ProtocolX Ecosystem
+            </li>
+            <li className={styles.roadItem}>
+              Introducing gamification systems to promote the{" "}
+            </li>
             <li className={styles.roadItem}> PTX/XSWAP token </li>
             <li className={styles.roadItem}> Initial development of </li>
             <li className={styles.roadItem}> ProtocolX Blockchain </li>
             <li className={styles.roadItem}>
-              Integration of a NFT Marketplace
+              Integration of a NFT Marketplace with ProtocolX
             </li>
-            <li className={styles.roadItem}> with ProtocolX </li>
             <li className={styles.roadItem}>
               Hosting project pre-sales with DEX
             </li>
             <li className={styles.roadItem}>
-              Development of additional farm/staking
+              Development of additional farm/staking on ProtocolX dApp
             </li>
-            <li className={styles.roadItem}> on ProtocolX dApp </li>
           </ul>
         </div>
       </div>

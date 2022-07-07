@@ -183,10 +183,10 @@
     font-size: 30px !important;
   }
   .top {
-    left: -3%;
+    left: -1.5%;
   }
   .bot {
-    right: -3%;
+    right: -1.5%;
   }
 }
 @media screen and (max-width: 480px) {
