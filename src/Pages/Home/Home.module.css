@@ -1,0 +1,5 @@
+.heroBg {
+  background-image: url("../../Assets/hero-bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

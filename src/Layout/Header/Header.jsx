@@ -10,7 +10,7 @@ function Header() {
   const [bg, setBg] = useState(false);
   useEffect(() => {
     const scrollHandler = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 80) {
         setBg(true);
       } else {
         setBg(false);

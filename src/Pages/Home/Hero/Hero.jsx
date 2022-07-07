@@ -5,7 +5,7 @@ import shield from "../../../Assets/hero/shield.png";
 import icon from "../../../Assets/hero/icon.png";
 function Hero() {
   return (
-    <div className={styles.cont}>
+    <div className="cont">
       <div className={styles.hero}>
         <div className={styles.leftHero}>
           <h1>

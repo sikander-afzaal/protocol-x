@@ -9,3 +9,10 @@
 .nunito {
   font-family: "Nunito", sans-serif;
 }
+.cont {
+  display: flex;
+  justify-content: center;
+  padding-inline: 20px;
+  width: 100%;
+  position: relative;
+}
