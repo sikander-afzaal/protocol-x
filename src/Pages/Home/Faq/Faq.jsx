@@ -23,7 +23,7 @@ function Faq() {
     });
   };
   return (
-    <div id="faq" className={styles.faq}>
+    <div data-aos="zoom-out-down" id="faq" className={styles.faq}>
       <div className={styles.headingDiv}>
         <h1>
           <span className={styles.red}>F</span>REQUENLY{" "}

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Box.module.css";
-function Box({ img, desc, title, red }) {
+function Box({ img, desc, title, red, aos }) {
   return (
-    <div className={styles.box}>
+    <div data-aos={aos} className={styles.box}>
       <div className={styles.wrapper}>
         <img src={img} alt="" />
         <h1>

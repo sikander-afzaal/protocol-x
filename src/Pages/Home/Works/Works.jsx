@@ -7,10 +7,10 @@ function Works() {
     <div className={`cont ${styles.workCont}`}>
       <img src={cog} className={styles.cog} alt="" />
       <div className={styles.works}>
-        <div className={styles.leftWork}>
+        <div data-aos="fade-right" className={styles.leftWork}>
           <img src={img} alt="" />
         </div>
-        <div className={styles.rightWork}>
+        <div data-aos="fade-left" className={styles.rightWork}>
           <h1>HOW IT WORKS</h1>
           <p>
             <span className={styles.bold}>Auto-Compouding Protocol</span> <br />

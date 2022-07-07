@@ -3,7 +3,7 @@ import styles from "./Model.module.css";
 function Model() {
   return (
     <div className={`cont ${styles.modelCont}`}>
-      <div className={styles.model}>
+      <div data-aos="zoom-in-down" className={styles.model}>
         <h1>
           Sustainable Emissions <span className={styles.red}>Model (SEM)</span>
         </h1>

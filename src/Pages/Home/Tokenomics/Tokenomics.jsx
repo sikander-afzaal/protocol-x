@@ -10,7 +10,7 @@ function Tokenomics() {
       <img src={bot} className={styles.bot} alt="" />
       <img src={top} alt="" className={styles.top} />
       <div className={styles.token}>
-        <div className={styles.leftToken}>
+        <div data-aos="fade-right" className={styles.leftToken}>
           <h1 className={styles.tokenHead}>
             Tokenomics of <span className={styles.white}>Procotol</span>X
           </h1>
@@ -54,7 +54,7 @@ function Tokenomics() {
             </div>
           </div>
         </div>
-        <div className={styles.rightToken}>
+        <div data-aos="fade-left" className={styles.rightToken}>
           <h1 className={styles.tokenHead}>
             Distribution<span className={styles.white}> of Tokens</span>
           </h1>

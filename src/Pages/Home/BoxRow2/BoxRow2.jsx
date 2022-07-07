@@ -10,6 +10,7 @@ function BoxRow2() {
       <img src={img} className={styles.patt} alt="" />
       <div style={{ padding: "0px" }} className={styles.row}>
         <Box
+          aos={"fade-right"}
           img={circle1}
           title={"FARMING"}
           red={" & STAKING"}
@@ -18,6 +19,7 @@ function BoxRow2() {
           }
         />
         <Box
+          aos={"fade-left"}
           img={circle2}
           title={"X"}
           red={"SWAP"}

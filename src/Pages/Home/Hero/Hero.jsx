@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./Hero.module.css";
 import circle from "../../../Assets/hero/circle.png";
 import shield from "../../../Assets/hero/shield.png";
@@ -7,7 +8,11 @@ function Hero() {
   return (
     <div className="cont">
       <div className={styles.hero}>
-        <div className={styles.leftHero}>
+        <div
+          data-aos="fade-right"
+          data-aos-delay={200}
+          className={styles.leftHero}
+        >
           <h1>
             THE FUTURE OF <br /> DECENTRALIZED <br /> FINANCE
           </h1>

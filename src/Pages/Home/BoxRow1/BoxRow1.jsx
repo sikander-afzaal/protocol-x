@@ -10,6 +10,7 @@ function BoxRow1() {
       <div className={styles.row}>
         <img src={bulb} className={styles.bulb} alt="" />
         <Box
+          aos={"fade-right"}
           img={circle1}
           title={"PROTOCOL"}
           red={"X BUYBACK"}
@@ -18,6 +19,7 @@ function BoxRow1() {
           }
         />
         <Box
+          aos={"fade-left"}
           img={circle2}
           title={"X"}
           red={"SHARE"}

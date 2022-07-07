@@ -7,8 +7,12 @@ function Roadmap() {
     <div className={styles.roadCont}>
       <img src={time} className={styles.time} alt="" />
       <div className={styles.roadmap}>
-        <img src={mid} className={styles.mid} alt="" />
-        <div className={styles.roadCol}>
+        <img data-aos="fade-top" src={mid} className={styles.mid} alt="" />
+        <div
+          data-aos="fade-right"
+          data-aos-delay={1000}
+          className={styles.roadCol}
+        >
           <div className={styles.topRoad}>
             <h1>
               ROADMAP <br /> <span className={styles.red}>Q3 2022</span>
@@ -57,7 +61,11 @@ function Roadmap() {
             </li>
           </ul>
         </div>
-        <div className={styles.roadCol}>
+        <div
+          data-aos="fade-left"
+          data-aos-delay={1000}
+          className={styles.roadCol}
+        >
           <div className={styles.topRoad}>
             <h1>
               <span className={styles.red}>Q4 2022</span> <br /> & BEYOND
