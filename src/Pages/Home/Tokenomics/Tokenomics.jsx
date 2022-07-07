@@ -5,8 +5,6 @@ function Tokenomics() {
   return (
     <div className={styles.tokenCont}>
       <img src={coin} className={styles.coin} alt="" />
-      <div className={styles.shadowTop}></div>
-      <div className={styles.shadowBot}></div>
       <div className={styles.token}>
         <div className={styles.leftToken}>
           <h1 className={styles.tokenHead}>
