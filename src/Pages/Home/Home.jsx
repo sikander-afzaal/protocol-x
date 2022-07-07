@@ -1,7 +1,8 @@
 import React from "react";
-import Works from "../Works/Works";
+import Works from "./Works/Works";
 import Hero from "./Hero/Hero";
 import styles from "./Home.module.css";
+import Model from "./Model/Model";
 function Home() {
   return (
     <div className="home">
@@ -9,6 +10,7 @@ function Home() {
         <Hero />
         <Works />
       </div>
+      <Model />
     </div>
   );
 }

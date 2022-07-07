@@ -2,4 +2,10 @@
   background-image: url("../../Assets/hero-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 500px) {
+  .heroBg {
+    padding-bottom: 40px;
+  }
 }
