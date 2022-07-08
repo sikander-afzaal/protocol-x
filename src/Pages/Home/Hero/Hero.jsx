@@ -8,7 +8,7 @@ import video from "../../../Assets/hero/bg-video.mp4";
 function Hero() {
   return (
     <div className="cont">
-      <video src={video} autoPlay loop muted />
+      <video src={video} autoPlay loop muted playsInline />
       <div className={styles.hero}>
         <div
           data-aos="fade-right"
