@@ -57,6 +57,7 @@
   object-fit: contain;
   width: 276px;
   height: 405px;
+  z-index: 4;
 }
 .icon {
   position: absolute;
@@ -66,6 +67,7 @@
   left: 51%;
   top: 41%;
   transform: translate(-50%, -50%);
+  z-index: 4;
 }
 .circle {
   position: absolute;
@@ -76,6 +78,7 @@
   left: 67%;
   top: 40%;
   transform: translate(-50%, -50%);
+  z-index: 4;
 }
 @media screen and (max-width: 1024px) {
   .leftHero h1 {
