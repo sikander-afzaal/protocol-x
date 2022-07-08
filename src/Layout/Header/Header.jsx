@@ -4,9 +4,11 @@ import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Header.module.css";
 import logo from "../../Assets/logo.svg";
+import MetaGrid from "../../Components/MetaGrid/MetaGrid";
 
 function Header() {
   const [open, setOpen] = useState(false);
+  const [modal, setModal] = useState(false);
   const [bg, setBg] = useState(false);
   useEffect(() => {
     const scrollHandler = () => {
@@ -24,6 +26,7 @@ function Header() {
 
   return (
     <div className={`${styles.headerCont}  ${bg ? styles.blackBg : ""}`}>
+      {modal && <MetaGrid setModal={setModal} />}
       <div className={styles.header}>
         <div
           onClick={() => setOpen(false)}
@@ -38,28 +41,64 @@ function Header() {
             icon={faXmark}
             className={styles.mobile}
           />
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             Pre-sale
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             Whitepaper
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             About us
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             Contact us
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             chart
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             buy ptx
           </a>
-          <a href="#" className={styles.navLinks}>
+          <a
+            onClick={() => setOpen(false)}
+            href="#"
+            className={styles.navLinks}
+          >
             dex
           </a>
-          <button className={styles.ctaBtn}>enter dapp</button>
+          <button
+            onClick={() => {
+              setModal(true);
+              setOpen(false);
+            }}
+            className={styles.ctaBtn}
+          >
+            Connect Wallet
+          </button>
         </div>
         <FontAwesomeIcon
           onClick={() => setOpen(true)}

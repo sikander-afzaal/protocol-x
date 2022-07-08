@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 .navLinks {
   font-size: 16px;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 .ctaBtn {
-  width: 146px;
+  width: 176px;
   height: 40px;
   border: 2px solid #c00000;
   border-radius: 6px;
@@ -58,14 +58,11 @@
 }
 
 @media screen and (max-width: 1210px) {
-  .rightHeader {
-    gap: 20px;
-  }
   .header {
     gap: 10px;
   }
 }
-@media screen and (max-width: 1042px) {
+@media screen and (max-width: 1072px) {
   .mobile {
     display: block;
     color: white;
