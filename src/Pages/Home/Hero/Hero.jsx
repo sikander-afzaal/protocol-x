@@ -4,11 +4,9 @@ import styles from "./Hero.module.css";
 import circle from "../../../Assets/hero/circle.png";
 import shield from "../../../Assets/hero/shield.png";
 import icon from "../../../Assets/hero/icon.png";
-import video from "../../../Assets/hero/bg-video.mp4";
 function Hero() {
   return (
     <div className="cont">
-      <video src={video} autoPlay loop muted playsInline />
       <div className={styles.hero}>
         <div
           data-aos="fade-right"
