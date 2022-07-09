@@ -12,11 +12,11 @@
 .cont {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-inline: 20px;
   width: 100%;
   position: relative;
   overflow-x: hidden;
-  isolation: isolate;
 }
 body {
   overflow-x: hidden;
